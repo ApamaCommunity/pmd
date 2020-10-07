@@ -1,0 +1,17 @@
+insert into GatherDeviceData
+select
+     getNumber(measurementEvent, "c8y_SignalStrengthWifi.rssi.value") as `rssi`,
+     getNumber(measurementEvent, "c8y_Acceleration.accelerationY.value") as `accelerationY`,
+     getNumber(measurementEvent, "c8y_Acceleration.accelerationX.value") as `accelerationX`,
+     getNumber(measurementEvent, "c8y_Acceleration.accelerationZ.value") as `accelerationZ`,
+     getNumber(measurementEvent, "c8y_Barometer.Air pressure.value") as `air_pressure`,
+     getNumber(measurementEvent, "c8y_Gyroscope.gyroX.value") as `gyroX`,
+     getNumber(measurementEvent, "c8y_Gyroscope.gyroY.value") as `gyroY`,
+     getNumber(measurementEvent, "c8y_Gyroscope.gyroZ.value") as `gyroZ`,
+     getNumber(measurementEvent, "c8y_Luxometer.lux.value") as `lux`,
+     getNumber(measurementEvent, "c8y_Compass.compassX.value") as `compassX`,
+     getNumber(measurementEvent, "c8y_Compass.compassY.value") as `compassY`,
+     getNumber(measurementEvent, "c8y_Compass.compassZ.value") as `compassZ`
+from MeasurementCreated measurementEvent
+where 
+     measurement.source.value = sourceDevice
