@@ -1,0 +1,141 @@
+    [Image] or [Truncated image[            Bcol      Ecol
+L1
+    [insert]                                1         6
+    [into]                                  8         11
+    [GatherDeviceData]                      13        28
+L2
+    [select]                                1         6
+L3
+    [getNumber]                             6         14
+    [(]                                     15        15
+    [measurementEvent]                      16        31
+    [,]                                     32        32
+    ["c8y_SignalStrengthWifi.rssi.value[    34        68
+    [)]                                     69        69
+    [as]                                    71        72
+    [`rssi`]                                74        79
+    [,]                                     80        80
+L4
+    [getNumber]                             6         14
+    [(]                                     15        15
+    [measurementEvent]                      16        31
+    [,]                                     32        32
+    ["c8y_Acceleration.accelerationY.va[    34        71
+    [)]                                     72        72
+    [as]                                    74        75
+    [`accelerationY`]                       77        91
+    [,]                                     92        92
+L5
+    [getNumber]                             6         14
+    [(]                                     15        15
+    [measurementEvent]                      16        31
+    [,]                                     32        32
+    ["c8y_Acceleration.accelerationX.va[    34        71
+    [)]                                     72        72
+    [as]                                    74        75
+    [`accelerationX`]                       77        91
+    [,]                                     92        92
+L6
+    [getNumber]                             6         14
+    [(]                                     15        15
+    [measurementEvent]                      16        31
+    [,]                                     32        32
+    ["c8y_Acceleration.accelerationZ.va[    34        71
+    [)]                                     72        72
+    [as]                                    74        75
+    [`accelerationZ`]                       77        91
+    [,]                                     92        92
+L7
+    [getNumber]                             6         14
+    [(]                                     15        15
+    [measurementEvent]                      16        31
+    [,]                                     32        32
+    ["c8y_Barometer.Air pressure.value"]    34        67
+    [)]                                     68        68
+    [as]                                    70        71
+    [`air_pressure`]                        73        86
+    [,]                                     87        87
+L8
+    [getNumber]                             6         14
+    [(]                                     15        15
+    [measurementEvent]                      16        31
+    [,]                                     32        32
+    ["c8y_Gyroscope.gyroX.value"]           34        60
+    [)]                                     61        61
+    [as]                                    63        64
+    [`gyroX`]                               66        72
+    [,]                                     73        73
+L9
+    [getNumber]                             6         14
+    [(]                                     15        15
+    [measurementEvent]                      16        31
+    [,]                                     32        32
+    ["c8y_Gyroscope.gyroY.value"]           34        60
+    [)]                                     61        61
+    [as]                                    63        64
+    [`gyroY`]                               66        72
+    [,]                                     73        73
+L10
+    [getNumber]                             6         14
+    [(]                                     15        15
+    [measurementEvent]                      16        31
+    [,]                                     32        32
+    ["c8y_Gyroscope.gyroZ.value"]           34        60
+    [)]                                     61        61
+    [as]                                    63        64
+    [`gyroZ`]                               66        72
+    [,]                                     73        73
+L11
+    [getNumber]                             6         14
+    [(]                                     15        15
+    [measurementEvent]                      16        31
+    [,]                                     32        32
+    ["c8y_Luxometer.lux.value"]             34        58
+    [)]                                     59        59
+    [as]                                    61        62
+    [`lux`]                                 64        68
+    [,]                                     69        69
+L12
+    [getNumber]                             6         14
+    [(]                                     15        15
+    [measurementEvent]                      16        31
+    [,]                                     32        32
+    ["c8y_Compass.compassX.value"]          34        61
+    [)]                                     62        62
+    [as]                                    64        65
+    [`compassX`]                            67        76
+    [,]                                     77        77
+L13
+    [getNumber]                             6         14
+    [(]                                     15        15
+    [measurementEvent]                      16        31
+    [,]                                     32        32
+    ["c8y_Compass.compassY.value"]          34        61
+    [)]                                     62        62
+    [as]                                    64        65
+    [`compassY`]                            67        76
+    [,]                                     77        77
+L14
+    [getNumber]                             6         14
+    [(]                                     15        15
+    [measurementEvent]                      16        31
+    [,]                                     32        32
+    ["c8y_Compass.compassZ.value"]          34        61
+    [)]                                     62        62
+    [as]                                    64        65
+    [`compassZ`]                            67        76
+L15
+    [from]                                  1         4
+    [MeasurementCreated]                    6         23
+    [measurementEvent]                      25        40
+L16
+    [where]                                 1         5
+L17
+    [measurement]                           6         16
+    [.]                                     17        17
+    [source]                                18        23
+    [.]                                     24        24
+    [value]                                 25        29
+    [=]                                     31        31
+    [sourceDevice]                          33        44
+EOF

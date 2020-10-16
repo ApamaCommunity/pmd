@@ -1064,6 +1064,7 @@
         <module>pmd-dart</module>
         <module>pmd-dist</module>
         <module>pmd-fortran</module>
+        <module>pmd-esper</module>
         <module>pmd-go</module>
         <module>pmd-groovy</module>
         <module>pmd-lua</module>
@@ -1076,7 +1077,6 @@
         <module>pmd-objectivec</module>
         <module>pmd-perl</module>
         <module>pmd-php</module>
-        <module>pmd-plsql</module>
         <module>pmd-python</module>
         <module>pmd-ruby</module>
         <module>pmd-swift</module>
